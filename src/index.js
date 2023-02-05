@@ -28,7 +28,11 @@ const user = {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const element = (getGreeting(user));
+const element = (
+<div>
+  {getGreeting(user)}
+  <h2>Good to see you here.</h2>
+</div>);
 root.render(element);
 
 
