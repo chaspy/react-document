@@ -2,6 +2,7 @@ import React from 'react';
 import Greeting from './Greeting';
 import LoginButton from './LoginButton';
 import LogoutButton from './LogoutButton';
+import WarningBanner from './WarningBanner';
 
 class LoginControl extends React.Component {
   constructor(props) {
@@ -32,6 +33,7 @@ class LoginControl extends React.Component {
       <div>
         <Greeting isLoggedIn={isLoggedIn} />
         {button}
+        <WarningBanner warn="warn!!!" />
       </div>
     );
   }
