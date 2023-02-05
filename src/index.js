@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import NameForm from './NameForm';
+import EssayForm from './EssayForm';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const numbers = [1, 2, 3, 4, 5];
-root.render(<NameForm numbers={numbers} />);
+root.render(<EssayForm />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
