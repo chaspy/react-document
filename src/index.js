@@ -4,6 +4,7 @@ import './index.css';
 import Clock from './Clock';
 import Toggle from './Toggle';
 import Greeting from './Greeting';
+import LoginControl from './LoginControl';
 import reportWebVitals from './reportWebVitals';
 
 function Welcome(props) {
@@ -21,7 +22,7 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<Greeting isLoggedIn={true} />);
+root.render(<LoginControl isLoggedIn={true} />);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
